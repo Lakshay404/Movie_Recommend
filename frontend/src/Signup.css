@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* Container for centering */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Form Card Styles */
+  .form-card {
+    background-color: #1e1e1e; /* Darker card background */
+    padding: 2rem; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for the card */
+  }
+  
+  /* Title Styles */
+  .form-title {
+    margin-bottom: 1.5rem; /* Space below title */
+    text-align: center; /* Centered title */
+  }
+  
+  /* Form Group Styles */
+  .form-group {
+    margin-bottom: 1rem; /* Space between form groups */
+  }
+  
+  /* Label Styles */
+  .form-label {
+    display: block; /* Block display for label */
+    margin-bottom: 0.5rem; /* Space below label */
+  }
+  
+  /* Input Styles */
+  .form-control {
+    width: 100%; /* Full width inputs */
+    padding: 0.5rem; /* Padding inside inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    border: 1px solid #555555; /* Dark gray border */
+    background-color: #333333; /* Dark input fields */
+    color: #ffffff; /* Light text color in inputs */
+    transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+  }
+  
+  .form-control::placeholder {
+    color: #aaaaaa; /* Placeholder text color */
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+/* Button Styles */
+.btn {
+    width: 100%; /* Full width button */
+    padding: 0.5rem; /* Padding inside button */
+    background-color: #007bff; /* Primary color for register button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Login Button Styles */
+  .btn-login {
+    background-color: #444444; /* Dark grey color for login button */
+    color: white; /* White text color */
+  }
+  
+  .btn-login:hover {
+    background-color: #333333; /* Slightly darker grey on hover */
+  }
+  
+  /* Responsive Design (Optional) */
+  @media (max-width: 480px) {
+    .form-card {
+        width: 90%; /* Full width on small screens */
+        padding: 1.5rem; /* Less padding on smaller screens */
+    }
+  }

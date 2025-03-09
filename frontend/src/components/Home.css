@@ -1,0 +1,106 @@
+#home {
+  color: #e0e0e0;
+}
+.home-container {
+  padding: 20px;
+}
+.blue {
+  min-height: 360px;
+  position: relative;
+  background-image: url("../assets/sarchimg.jpg");
+  background-position: 20% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 25px;
+  opacity: 0.95;
+}
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  gap: 370px;
+  margin-bottom: 33px;
+}
+.genre-btn {
+  background-color: transparent;
+  border: 2px solid #ff6600;
+  color: #ff6600;
+  padding: 8px 15px;
+  margin-left: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.genre-btn:hover {
+  background-color: #ff4500;
+  color: #fff;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline-block;
+}
+
+.pagination a,
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 2px solid rgb(30, 182, 16);
+  background-color: transparent;
+  color: #ff6600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.pagination a:hover,
+.pagination button:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  background-color: #222;
+  cursor: not-allowed;
+}
+
+.pagination .active a {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+}
+
+.pagination .active a:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+.search-barr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.search-inputt {
+  border: 0;
+  outline: none;
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}

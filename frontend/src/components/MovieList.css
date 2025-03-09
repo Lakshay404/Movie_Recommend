@@ -1,0 +1,29 @@
+/* MovieList.css */
+
+.movie-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space out items evenly */
+    margin: -10px; /* Adjust negative margin for spacing */
+}
+
+.movie-card {
+    margin: 10px; /* Add margin around each movie card */
+    flex: 1 1 calc(20% - 20px); /* Adjust size of each card (5 per row) */
+    max-width: calc(20% - 20px); /* Set max width for each card */
+}
+
+/* Optional: Adjust for smaller screens */
+@media (max-width: 768px) {
+    .movie-card {
+        flex: 1 1 calc(33.33% - 20px); /* Adjust to 3 per row on medium screens */
+        max-width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-card {
+        flex: 1 1 calc(50% - 20px); /* Adjust to 2 per row on small screens */
+        max-width: calc(50% - 20px);
+    }
+}

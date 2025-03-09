@@ -1,0 +1,123 @@
+/* #recommendation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.last-work {
+  background-color: #f9f9f9;
+  display: flex;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  height: 150px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recom-img > img {
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.recom-details .recom-overview {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: black;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recom-details h3, .recom-details p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.recommend-input {
+  outline:none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+  color: #333;
+  width: 236px;
+} */
+
+/* Make sure the page layout is structured properly */
+.page-containerrr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px; /* Adjust spacing */
+}
+
+
+/* Center the search bar and button */
+.search-containerrr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+  margin: 30px 0;
+}
+
+/* Increase the search bar size */
+.recommend-inputtt {
+  width: 400px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Style the Recommend button */
+.search-buttonnn {
+  padding: 12px 20px;
+  font-size: 18px;
+  background-color: #db591d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-buttonnn:hover {
+  background-color: #b64503;
+}
+
+/* Movie Grid Layout (5 per row) */
+.movie-containerrr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.movie-carddd {
+  text-align: center;
+  background: #414040;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-posterrr {
+  width: 90%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+  
